@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+}
+
+html, body, div, ul, li, span, a, header, main, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+body, a {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a {
+    transition: .5s;
+}
+
+a:hover {
+    color: #968659;
+}
+
+.header, .main, .footer {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    align-items: center;
+    height: 15%;
+    background-color: #000000;
+}
+
+.logo_link {
+    display: block;
+    width: 48px;
+    height: 39px;
+    background-image: url("assets/svg/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.logo_link:hover {
+    cursor: pointer;
+    filter: invert(55%) sepia(21%) saturate(655%) hue-rotate(7deg) brightness(92%) contrast(86%);
+}
+
+.navigation_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_item {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.menu_link {
+    transition: .5s;
+}
+
+.main {
+    background-image: url(assets/img/forest.jpg);
+    min-height: 70%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    background-image: url("assets/svg/play.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: rgb(0,0,0,0);
+    transition: .5s;
+}
+
+.play:hover {
+    cursor: pointer;
+    filter: invert(55%) sepia(21%) saturate(655%) hue-rotate(7deg) brightness(92%) contrast(86%);
+}
+
+.footer {
+    height: 15%;
+    max-width: 1440px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rolling {
+    max-width: 130px;
+}
+
+.right_link {
+    transition: .5s;
+}
+
+.right_link:hover {
+    filter: invert(55%) sepia(21%) saturate(655%) hue-rotate(7deg) brightness(92%) contrast(86%);
+    cursor: pointer;
+}
+
+.left_footer_span {
+    margin-right: 20px;
+}
+
