@@ -16,3 +16,8 @@ function playAudio() {
 }
 
 play.addEventListener('click', playAudio);
+
+function toggleBtn() {
+    play.classList.toggle('pause');
+  }
+  play.addEventListener('click', toggleBtn);

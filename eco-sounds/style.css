@@ -110,7 +110,7 @@ a:hover {
     }
 }
 
-.play:hover, .pause:hover {
+.play:hover {
     cursor: pointer;
     filter: invert(55%) sepia(21%) saturate(655%) hue-rotate(7deg) brightness(92%) contrast(86%);
 }
