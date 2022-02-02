@@ -1,15 +1,18 @@
 const audio = document.querySelector('audio');
 const play = document.querySelector('.play');
-const pause = document.querySelector('.pause');
+
+let isPlay = false;
 
 function playAudio() {
-  audio.currentTime = 0;
-  audio.play();
-}
+    if (!isPlay) {
+        isPlay = true
+        audio.currentTime = 0;
+        audio.play();
+    } else {
+        audio.pause();
+        isPlay = false
+    }
 
-function pauseAudio() {
-  audio.pause();
 }
 
 play.addEventListener('click', playAudio);
-pause.addEventListener('click', pauseAudio);

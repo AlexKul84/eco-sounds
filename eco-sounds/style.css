@@ -85,7 +85,7 @@ a:hover {
 
 .play {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 160px;
@@ -99,25 +99,12 @@ a:hover {
     transition: .5s;
 }
 
-.pause {
-    /* display: none; */
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 160px;
-    height: 160px;
+.play.pause {
     background-image: url("assets/svg/pause.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    background-color: rgb(0,0,0,0);
-    transition: .5s;
 }
 
 @media (max-width: 768px) {
-    .play, .pause {
+    .play {
         width: 80px;
         height: 80px;
     }
