@@ -22,6 +22,13 @@ body, a {
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    body, a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
 a {
     transition: .5s;
 }
@@ -44,6 +51,12 @@ a:hover {
     background-color: #000000;
 }
 
+@media (max-width: 768px) {
+    .header {
+        height: 30px;
+    }
+}
+
 .logo_link {
     display: block;
     width: 48px;
@@ -52,6 +65,13 @@ a:hover {
     background-size: contain;
     background-repeat: no-repeat;
     transition: .5s;
+}
+
+@media (max-width: 768px) {
+    .logo_link {
+        width: calc(48px / 3);
+        height: calc(39px / 3);
+    }
 }
 
 .logo_link:hover {
@@ -85,6 +105,12 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .main {
+        min-height: calc(100% - 60px);
+    } 
 }
 
 .main.main_solovey {
@@ -134,6 +160,13 @@ a:hover {
     }
 }
 
+@media (max-height: 300px) {
+    .play {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 .play:hover {
     cursor: pointer;
     filter: invert(55%) sepia(21%) saturate(655%) hue-rotate(7deg) brightness(92%) contrast(86%);
@@ -148,8 +181,20 @@ a:hover {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .footer {
+        height: 30px;
+    }
+}
+
 .rolling {
     max-width: 130px;
+}
+
+@media (max-width: 768px) {
+    .rolling {
+        max-width: 65px;
+    }
 }
 
 .right_link {
