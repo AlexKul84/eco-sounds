@@ -73,6 +73,10 @@ a:hover {
     transition: .5s;
 }
 
+.menu_link_play {
+    color: #968659;
+}
+
 .main {
     background-image: url(assets/img/forest.jpg);
     min-height: calc(100% - 140px);
@@ -81,6 +85,26 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.main_solovey {
+    background-image: url(assets/img/solovey.jpg);
+}
+
+.main_drozd {
+    background-image: url(assets/img/drozd.jpg);
+}
+
+.main_zarynka {
+    background-image: url(assets/img/zarynka.jpg);
+}
+
+.main_javoronok {
+    background-image: url(assets/img/javoronok.jpg);
+}
+
+.main_slavka {
+    background-image: url(assets/img/slavka.jpg);
 }
 
 .play {
