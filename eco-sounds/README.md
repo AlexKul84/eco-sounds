@@ -1,1 +1,1 @@
-# eco-sounds - пет-проект, созданный во время обучения в Te Rolling Scopes School
+# eco-sounds - пет-проект, созданный во время обучения в The Rolling Scopes School
