@@ -1,2 +1,1 @@
-# alexkul84-JSFEPRESCHOOL
-Private repository for @alexkul84
+eco-sounds - пет-проект, созданный во время обучения в The Rolling Scopes School
